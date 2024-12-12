@@ -36,7 +36,7 @@
             <div class="lead">
                 <!-- add other student code -->
                 <section>
-                    <img src="images/first.png" alt="Connection between brain and machine">
+                    <img src="images/first.png" alt="Connection between brain and machine" style="width:400px;">
                     <h2>Introduction</h2>
                     <p><strong>Organoid Intelligence (OI)</strong> represents a revolutionary new frontier in biocomputing, where biological
                         brain-like structures, called organoids, are harnessed to perform computational tasks in a way that
