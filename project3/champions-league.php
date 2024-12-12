@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="./css/style.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Learn about the UEFA Champions League, Europe’s premier club football competition, featuring top teams battling for glory. Discover its rich history, thrilling knockout rounds, and the journey to the prestigious final in one of the world’s most-watched sports tournaments.">
     </head>
     <body>
         <!-- grid-container -->

@@ -5,6 +5,8 @@
         <link rel="stylesheet" href="./css/style.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Explore the emotional and captivating world of Life is Strange, an episodic adventure game that follows the story of Max Caulfield, a high school student with the power to rewind time. Discover its unique gameplay mechanics, thought-provoking narrative, and themes of friendship, choice, and consequence.">
+
     </head>
     <body>
         <!-- grid-container -->

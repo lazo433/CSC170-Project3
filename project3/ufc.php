@@ -5,6 +5,8 @@
         <link rel="stylesheet" href="./css/style.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Explore the Ultimate Fighting Championship (UFC), the world’s leading mixed martial arts organization. Discover the fighters, events, and history of the UFC, where elite athletes compete in the most exciting combat sports league worldwide.">
+
     </head>
     <body>
         <!-- grid-container -->

@@ -5,6 +5,8 @@
         <link rel="stylesheet" href="./css/style.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Learn about Organoid Intelligence (OI), a cutting-edge field in biocomputing that uses brain-like structures to perform computational tasks, revolutionizing both neuroscience and technology. Explore its potential in transforming computing and energy efficiency.">
+
     </head>
     <body>
         <!-- grid-container -->

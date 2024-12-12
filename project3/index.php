@@ -7,8 +7,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Explore the interests of students from CSC170 Fall24. Learn about topics that
             that range from sports like soccer and mixed martial arts to video games and biocomputing.">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="./inc/slideshow.js"></script>
     </head>
-    <body>
+    <body class="slideshow-page">
         <!-- grid-container -->
         <div class="grid-container">
          <!-- note: doesn't follow the same layout as others; doesn't have aside secontion -->
@@ -30,6 +33,14 @@
 
             <!-- Nav menu in php -->
             <?php include 'inc/menu.php'; ?>
+
+            <div class="slideshow-container">
+            <!-- Example images for the slideshow -->
+                <img src="./images/champions_league_trophy.jpg" alt="Slide 1" class="slide">
+                <img src="./images/organoid.jpg" alt="Slide 2" class="slide">
+                <img src="./images/img3.jpg" alt="Slide 3" class="slide">
+                <img src="./images/lislogo.jpeg" alt="Slide 4" class="slide">
+            </div>
 
             <!-- main -->
             <main class="main">
