@@ -1,0 +1,238 @@
+/* style for body */
+body {
+    background-color: #DFF8FE;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 10px;
+}
+
+/* Style for headers & p */
+h1 {
+    font-size: 2.5em;
+
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    /* border-bottom: 1.5px solid black; */
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/* center header image */
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Style for grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    gap: 10px;
+
+}
+
+.header {grid-area: 1 / 1 / 2 / 3;}
+nav {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+}
+.title-header {grid-area: 3 / 1 / 4 / 3;} /* New title-header section spans full width */
+.lead {grid-area: 4 / 1 / 5 / 2;}
+.main {grid-area: 5 / 1 / 6 / 2;}
+.side {grid-area: 4 / 2 / 6 / 3;}
+.footer {grid-area: 6 / 1 / 7 / 3;}
+
+/* Style for table */
+table {
+    margin-top: 50px;
+    border-collapse: collapse;
+    width: 50%;
+    
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #b7d6f2;}
+
+th {
+    background-color: #1E90FF;
+    color: white;
+}
+
+table caption {
+    font-size: 1.5em;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+/* style for lead section */
+.lead {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 15px;
+    border-bottom: 2px solid #1E90FF;
+}
+.lead p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.5;
+
+}
+
+/* style for the side and  side lists */
+.side {
+    margin-left: 10px;
+}
+.side-lists dd {
+    line-height: 1.7;
+}
+
+/* style for main */
+.main {
+    padding-right: 20px;
+}
+
+
+/* style for the header (banner) */
+.header {
+    padding: 20px; 
+    background-color: lightgray;
+    border-bottom: 2px solid black;
+    margin-bottom: 25px;
+
+}
+
+.banner {
+    display: flex; 
+    align-items: center;
+    gap: 15px; 
+}
+
+.logo {
+    vertical-align: middle;
+    width: 70px; 
+    height: auto; 
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column; 
+}
+
+.title-container h1 {
+    display: inline-flex;
+    align-items: center;
+    margin: 0; 
+    font-size: 3.5em; 
+}
+
+.subtitle {
+    margin: 0; 
+    font-size: 1em; 
+    color: #555; 
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Style for subpages */
+.subpage {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    /* margin-right: 20px; */
+    padding: 50px;
+    gap: 10%;
+    border-left: 2px solid #1E90FF;
+
+}
+
+.subpage-img {
+    max-height: 200px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Style of nav bar */
+
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+    
+}
+
+.main-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-menu li {
+    display: inline;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding:  10px 15px;
+    border-radius: 5px;
+}
+
+.main-menu a:hover {
+    background-color: #555;
+}
+
+.main-menu a.active {
+    background-color: #555;
+    color: white;
+}
+
+/* ------Responsive adjustments------- */
+
+/* nav bar */
+@media screen and (max-width: 480px) {
+    .main-menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .main-menu li {
+        display: block;
+        width: 100%;
+    }
+
+    .main-menu a {
+        text-align: center;
+        display: block;
+    }
+    
+}
+
+
+
